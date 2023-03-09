@@ -3,6 +3,7 @@ package com.cristobalbernal.proyectofinal;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -16,12 +17,12 @@ import java.util.Locale;
 
 public class Principal extends AppCompatActivity {
     private Button button;
-    private static final String[] lenguaje = {"Selecione idioma!!", "Ingles", "Castellano"};
+    private static final String[] lenguaje = {"Selecione idioma!!", "Castellano", "Ingles"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.principal);
         button = findViewById(R.id.boton);
         Spinner spinner = findViewById(R.id.spinner);
 
@@ -54,7 +55,7 @@ public class Principal extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                startActivity(new Intent(Principal.this, MainActivity.class));
             }
         });
     }

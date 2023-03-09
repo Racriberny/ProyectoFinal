@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">ProyectoFinal</string>
     <string name="hola_mundo">Hola Mundo</string>
+    <string name="guardar">Guardar</string>
+    <string name="bienvenido_a_la_casa_nostra">Bienvenido A La Casa Nostra</string>
+    <string name="seleciona_el_idioma">Seleciona el idioma</string>
+    <string name="hola">Hola</string>
 </resources>

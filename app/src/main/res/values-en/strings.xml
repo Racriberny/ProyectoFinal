@@ -2,4 +2,8 @@
 <resources>
     <string name="app_name">ProyectoFinal</string>
     <string name="hola_mundo">Hello Word</string>
+    <string name="guardar">Save</string>
+    <string name="bienvenido_a_la_casa_nostra">Welcome A La Casa Nostra</string>
+    <string name="seleciona_el_idioma">Select the language</string>
+    <string name="hola">Hello</string>
 </resources>
